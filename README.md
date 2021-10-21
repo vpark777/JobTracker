@@ -1,3 +1,5 @@
+![Hanko Banner](Documentation/Banner.png)
+
 # JobTracker
 
 ## Description
