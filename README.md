@@ -18,4 +18,5 @@ With Job Tracker, the long list of upcoming, in progress, or completed applicati
 All applications entered will stay saved in the app, even if you close out of the app. There's also the ability to favorite certain application entries so you can keep an eye on your favorite applications.
 
 ## Spec
+Click the image and select Download to see the full resolution image.
 ![Spec](Documentation/JobTrackerDesigns.png)
