@@ -46,6 +46,14 @@ class HomeViewController: UIViewController {
         return filterView
     }()
     
+    let jobsView: JobsView = {
+        let jobsView = JobsView()
+        jobsView.translatesAutoresizingMaskIntoConstraints = false
+        return jobsView
+    }()
+    
+    
+    
 // MARK: - Initializers
     
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
@@ -73,7 +81,8 @@ class HomeViewController: UIViewController {
          topStackView.addArrangedSubview(headerStackView)
          topStackView.addArrangedSubview(statusFilterView)
          
-         view?.addSubview(topStackView)
+         view.addSubview(topStackView)
+         view.addSubview(jobsView)
     }
 
      func activateConstraints() {
@@ -81,6 +90,11 @@ class HomeViewController: UIViewController {
             topStackView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
             topStackView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 22),
             topStackView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -22),
+            
+            jobsView.topAnchor.constraint(equalTo: topStackView.bottomAnchor, constant: 22),
+            jobsView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            jobsView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            jobsView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor)
         ])
     }
     

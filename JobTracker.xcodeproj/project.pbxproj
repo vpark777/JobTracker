@@ -11,6 +11,10 @@
 		2C4EC828272389C3000C318D /* StatusFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4EC827272389C3000C318D /* StatusFilterView.swift */; };
 		2C4EC82A272389D1000C318D /* StatusTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4EC829272389D1000C318D /* StatusTileView.swift */; };
 		2C4EC82C272622D4000C318D /* AddButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4EC82B272622D4000C318D /* AddButtonView.swift */; };
+		2C4EC82E272624ED000C318D /* JobTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4EC82D272624ED000C318D /* JobTileView.swift */; };
+		2C4EC8302726250C000C318D /* JobsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4EC82F2726250C000C318D /* JobsView.swift */; };
+		2C4EC83227262523000C318D /* FavoritesFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4EC83127262523000C318D /* FavoritesFilterView.swift */; };
+		2C4EC8352726256E000C318D /* LastUpdatedBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4EC8342726256E000C318D /* LastUpdatedBubbleView.swift */; };
 		F3B5A12F2720ABDB00CCD30B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B5A12E2720ABDB00CCD30B /* AppDelegate.swift */; };
 		F3B5A1312720ABDB00CCD30B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B5A1302720ABDB00CCD30B /* SceneDelegate.swift */; };
 		F3B5A1332720ABDB00CCD30B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B5A1322720ABDB00CCD30B /* HomeViewController.swift */; };
@@ -25,6 +29,10 @@
 		2C4EC827272389C3000C318D /* StatusFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusFilterView.swift; sourceTree = "<group>"; };
 		2C4EC829272389D1000C318D /* StatusTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusTileView.swift; sourceTree = "<group>"; };
 		2C4EC82B272622D4000C318D /* AddButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButtonView.swift; sourceTree = "<group>"; };
+		2C4EC82D272624ED000C318D /* JobTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobTileView.swift; sourceTree = "<group>"; };
+		2C4EC82F2726250C000C318D /* JobsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsView.swift; sourceTree = "<group>"; };
+		2C4EC83127262523000C318D /* FavoritesFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesFilterView.swift; sourceTree = "<group>"; };
+		2C4EC8342726256E000C318D /* LastUpdatedBubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastUpdatedBubbleView.swift; sourceTree = "<group>"; };
 		F3B5A12B2720ABDB00CCD30B /* JobTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B5A12E2720ABDB00CCD30B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3B5A1302720ABDB00CCD30B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,12 +58,24 @@
 		2C4EC82427238721000C318D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2C4EC83327262527000C318D /* Jobs */,
 				2C4EC8252723872F000C318D /* UserGreetingView.swift */,
 				2C4EC827272389C3000C318D /* StatusFilterView.swift */,
 				2C4EC829272389D1000C318D /* StatusTileView.swift */,
 				2C4EC82B272622D4000C318D /* AddButtonView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		2C4EC83327262527000C318D /* Jobs */ = {
+			isa = PBXGroup;
+			children = (
+				2C4EC82F2726250C000C318D /* JobsView.swift */,
+				2C4EC82D272624ED000C318D /* JobTileView.swift */,
+				2C4EC83127262523000C318D /* FavoritesFilterView.swift */,
+				2C4EC8342726256E000C318D /* LastUpdatedBubbleView.swift */,
+			);
+			path = Jobs;
 			sourceTree = "<group>";
 		};
 		F3B5A1222720ABDB00CCD30B = {
@@ -164,9 +184,13 @@
 				F3B5A1332720ABDB00CCD30B /* HomeViewController.swift in Sources */,
 				F3B5A12F2720ABDB00CCD30B /* AppDelegate.swift in Sources */,
 				2C4EC8262723872F000C318D /* UserGreetingView.swift in Sources */,
+				2C4EC83227262523000C318D /* FavoritesFilterView.swift in Sources */,
+				2C4EC8352726256E000C318D /* LastUpdatedBubbleView.swift in Sources */,
 				2C4EC82A272389D1000C318D /* StatusTileView.swift in Sources */,
 				F3B5A1392720ABDB00CCD30B /* JobTracker.xcdatamodeld in Sources */,
 				2C4EC828272389C3000C318D /* StatusFilterView.swift in Sources */,
+				2C4EC8302726250C000C318D /* JobsView.swift in Sources */,
+				2C4EC82E272624ED000C318D /* JobTileView.swift in Sources */,
 				2C4EC82C272622D4000C318D /* AddButtonView.swift in Sources */,
 				F3B5A1312720ABDB00CCD30B /* SceneDelegate.swift in Sources */,
 			);
