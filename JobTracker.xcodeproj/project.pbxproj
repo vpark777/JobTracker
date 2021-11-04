@@ -7,21 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B0C8230272B32DE0003DFD6 /* Job+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0C822E272B32DE0003DFD6 /* Job+CoreDataClass.swift */; };
+		1B0C8231272B32DE0003DFD6 /* Job+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0C822F272B32DE0003DFD6 /* Job+CoreDataProperties.swift */; };
+		1B0C8233272B34CA0003DFD6 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0C8232272B34CA0003DFD6 /* DataManager.swift */; };
+		1B11B47027330AA6004F0239 /* StatusLabelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B11B46F27330AA6004F0239 /* StatusLabelsView.swift */; };
+		1B29D27E272F9716004CC7FD /* statusButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B29D27D272F9716004CC7FD /* statusButtonsView.swift */; };
+		1B29D280272F9FEC004CC7FD /* StatusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B29D27F272F9FEC004CC7FD /* StatusButton.swift */; };
+		1B2BD65B27310309004C6695 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2BD65A27310309004C6695 /* HeaderView.swift */; };
+		1B651B9E2734618B00D5B329 /* DetailSmallContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B651B9D2734618B00D5B329 /* DetailSmallContentView.swift */; };
+		1B651BA02734623600D5B329 /* LabelLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B651B9F2734623600D5B329 /* LabelLabelView.swift */; };
+		1B6586D4272B4B2100EA53D4 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6586D3272B4B2100EA53D4 /* TopView.swift */; };
+		1B6586D9272B523600EA53D4 /* JobCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6586D8272B523600EA53D4 /* JobCell.swift */; };
+		1B6586DB272B8BE500EA53D4 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6586DA272B8BE500EA53D4 /* AddViewController.swift */; };
+		1B88C5122732645700783926 /* CheckToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B88C5112732645700783926 /* CheckToggleButton.swift */; };
+		1B88C5142732C67A00783926 /* StatusCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B88C5132732C67A00783926 /* StatusCreateView.swift */; };
+		1B8DBFF72733B68000031FA2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8DBFF62733B68000031FA2 /* DetailViewController.swift */; };
+		1B9D71DF272CF881001DB29B /* SmallContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D71DE272CF881001DB29B /* SmallContentView.swift */; };
+		1B9D71E1272DCE08001DB29B /* labelTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D71E0272DCE08001DB29B /* labelTextFieldView.swift */; };
 		F3B5A12F2720ABDB00CCD30B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B5A12E2720ABDB00CCD30B /* AppDelegate.swift */; };
 		F3B5A1312720ABDB00CCD30B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B5A1302720ABDB00CCD30B /* SceneDelegate.swift */; };
 		F3B5A1332720ABDB00CCD30B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B5A1322720ABDB00CCD30B /* ViewController.swift */; };
-		F3B5A1362720ABDB00CCD30B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B5A1342720ABDB00CCD30B /* Main.storyboard */; };
 		F3B5A1392720ABDB00CCD30B /* JobTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F3B5A1372720ABDB00CCD30B /* JobTracker.xcdatamodeld */; };
 		F3B5A13B2720ABDD00CCD30B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3B5A13A2720ABDD00CCD30B /* Assets.xcassets */; };
 		F3B5A13E2720ABDD00CCD30B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B5A13C2720ABDD00CCD30B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B0C822E272B32DE0003DFD6 /* Job+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Job+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1B0C822F272B32DE0003DFD6 /* Job+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Job+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1B0C8232272B34CA0003DFD6 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		1B11B46F27330AA6004F0239 /* StatusLabelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusLabelsView.swift; sourceTree = "<group>"; };
+		1B29D27D272F9716004CC7FD /* statusButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = statusButtonsView.swift; path = JobTracker/Views/VcViews/statusButtonsView.swift; sourceTree = SOURCE_ROOT; };
+		1B29D27F272F9FEC004CC7FD /* StatusButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StatusButton.swift; path = JobTracker/Views/VcViews/StatusButton.swift; sourceTree = SOURCE_ROOT; };
+		1B2BD65A27310309004C6695 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		1B651B9D2734618B00D5B329 /* DetailSmallContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSmallContentView.swift; sourceTree = "<group>"; };
+		1B651B9F2734623600D5B329 /* LabelLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelLabelView.swift; sourceTree = "<group>"; };
+		1B6586D3272B4B2100EA53D4 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		1B6586D8272B523600EA53D4 /* JobCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobCell.swift; sourceTree = "<group>"; };
+		1B6586DA272B8BE500EA53D4 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		1B88C5112732645700783926 /* CheckToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckToggleButton.swift; sourceTree = "<group>"; };
+		1B88C5132732C67A00783926 /* StatusCreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusCreateView.swift; sourceTree = "<group>"; };
+		1B8DBFF62733B68000031FA2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1B9D71DE272CF881001DB29B /* SmallContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallContentView.swift; sourceTree = "<group>"; };
+		1B9D71E0272DCE08001DB29B /* labelTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = labelTextFieldView.swift; sourceTree = "<group>"; };
 		F3B5A12B2720ABDB00CCD30B /* JobTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B5A12E2720ABDB00CCD30B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3B5A1302720ABDB00CCD30B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F3B5A1322720ABDB00CCD30B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F3B5A1352720ABDB00CCD30B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F3B5A1382720ABDB00CCD30B /* JobTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JobTracker.xcdatamodel; sourceTree = "<group>"; };
 		F3B5A13A2720ABDD00CCD30B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3B5A13D2720ABDD00CCD30B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -39,9 +71,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B5B1DC42734181000CAC89C /* AddVcViews */ = {
+			isa = PBXGroup;
+			children = (
+				1B9D71DE272CF881001DB29B /* SmallContentView.swift */,
+				1B88C5132732C67A00783926 /* StatusCreateView.swift */,
+				1B88C5112732645700783926 /* CheckToggleButton.swift */,
+				1B11B46F27330AA6004F0239 /* StatusLabelsView.swift */,
+				1B9D71E0272DCE08001DB29B /* labelTextFieldView.swift */,
+			);
+			path = AddVcViews;
+			sourceTree = "<group>";
+		};
+		1B5B1DC52734184200CAC89C /* VcViews */ = {
+			isa = PBXGroup;
+			children = (
+				1B6586D3272B4B2100EA53D4 /* TopView.swift */,
+				1B29D27D272F9716004CC7FD /* statusButtonsView.swift */,
+				1B29D27F272F9FEC004CC7FD /* StatusButton.swift */,
+				1B2BD65A27310309004C6695 /* HeaderView.swift */,
+				1B6586D8272B523600EA53D4 /* JobCell.swift */,
+			);
+			path = VcViews;
+			sourceTree = "<group>";
+		};
+		1B5B1DC62734186800CAC89C /* DetailVcViews */ = {
+			isa = PBXGroup;
+			children = (
+				1B651B9D2734618B00D5B329 /* DetailSmallContentView.swift */,
+				1B651B9F2734623600D5B329 /* LabelLabelView.swift */,
+			);
+			path = DetailVcViews;
+			sourceTree = "<group>";
+		};
+		1B6586D5272B4BC400EA53D4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1B5B1DC52734184200CAC89C /* VcViews */,
+				1B5B1DC42734181000CAC89C /* AddVcViews */,
+				1B5B1DC62734186800CAC89C /* DetailVcViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1B6586D6272B4BD600EA53D4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F3B5A1322720ABDB00CCD30B /* ViewController.swift */,
+				1B6586DA272B8BE500EA53D4 /* AddViewController.swift */,
+				1B8DBFF62733B68000031FA2 /* DetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1B6586D7272B4BF000EA53D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1B0C8232272B34CA0003DFD6 /* DataManager.swift */,
+				F3B5A1372720ABDB00CCD30B /* JobTracker.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F3B5A1222720ABDB00CCD30B = {
 			isa = PBXGroup;
 			children = (
+				1B0C822E272B32DE0003DFD6 /* Job+CoreDataClass.swift */,
+				1B0C822F272B32DE0003DFD6 /* Job+CoreDataProperties.swift */,
 				F3B5A12D2720ABDB00CCD30B /* JobTracker */,
 				F3B5A12C2720ABDB00CCD30B /* Products */,
 			);
@@ -58,14 +154,14 @@
 		F3B5A12D2720ABDB00CCD30B /* JobTracker */ = {
 			isa = PBXGroup;
 			children = (
+				1B6586D7272B4BF000EA53D4 /* Model */,
+				1B6586D6272B4BD600EA53D4 /* ViewControllers */,
+				1B6586D5272B4BC400EA53D4 /* Views */,
 				F3B5A12E2720ABDB00CCD30B /* AppDelegate.swift */,
 				F3B5A1302720ABDB00CCD30B /* SceneDelegate.swift */,
-				F3B5A1322720ABDB00CCD30B /* ViewController.swift */,
-				F3B5A1342720ABDB00CCD30B /* Main.storyboard */,
 				F3B5A13A2720ABDD00CCD30B /* Assets.xcassets */,
 				F3B5A13C2720ABDD00CCD30B /* LaunchScreen.storyboard */,
 				F3B5A13F2720ABDD00CCD30B /* Info.plist */,
-				F3B5A1372720ABDB00CCD30B /* JobTracker.xcdatamodeld */,
 			);
 			path = JobTracker;
 			sourceTree = "<group>";
@@ -130,7 +226,6 @@
 			files = (
 				F3B5A13E2720ABDD00CCD30B /* LaunchScreen.storyboard in Resources */,
 				F3B5A13B2720ABDD00CCD30B /* Assets.xcassets in Resources */,
-				F3B5A1362720ABDB00CCD30B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +236,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B6586DB272B8BE500EA53D4 /* AddViewController.swift in Sources */,
+				1B651B9E2734618B00D5B329 /* DetailSmallContentView.swift in Sources */,
 				F3B5A1332720ABDB00CCD30B /* ViewController.swift in Sources */,
+				1B6586D9272B523600EA53D4 /* JobCell.swift in Sources */,
+				1B0C8230272B32DE0003DFD6 /* Job+CoreDataClass.swift in Sources */,
 				F3B5A12F2720ABDB00CCD30B /* AppDelegate.swift in Sources */,
+				1B0C8233272B34CA0003DFD6 /* DataManager.swift in Sources */,
 				F3B5A1392720ABDB00CCD30B /* JobTracker.xcdatamodeld in Sources */,
+				1B29D280272F9FEC004CC7FD /* StatusButton.swift in Sources */,
 				F3B5A1312720ABDB00CCD30B /* SceneDelegate.swift in Sources */,
+				1B11B47027330AA6004F0239 /* StatusLabelsView.swift in Sources */,
+				1B8DBFF72733B68000031FA2 /* DetailViewController.swift in Sources */,
+				1B6586D4272B4B2100EA53D4 /* TopView.swift in Sources */,
+				1B2BD65B27310309004C6695 /* HeaderView.swift in Sources */,
+				1B651BA02734623600D5B329 /* LabelLabelView.swift in Sources */,
+				1B0C8231272B32DE0003DFD6 /* Job+CoreDataProperties.swift in Sources */,
+				1B88C5142732C67A00783926 /* StatusCreateView.swift in Sources */,
+				1B9D71DF272CF881001DB29B /* SmallContentView.swift in Sources */,
+				1B29D27E272F9716004CC7FD /* statusButtonsView.swift in Sources */,
+				1B88C5122732645700783926 /* CheckToggleButton.swift in Sources */,
+				1B9D71E1272DCE08001DB29B /* labelTextFieldView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F3B5A1342720ABDB00CCD30B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F3B5A1352720ABDB00CCD30B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F3B5A13C2720ABDD00CCD30B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -298,7 +402,6 @@
 				INFOPLIST_FILE = JobTracker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -326,7 +429,6 @@
 				INFOPLIST_FILE = JobTracker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
